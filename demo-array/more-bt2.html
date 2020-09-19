@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = [175, 150, 0, 180,166, 0]
+    for (let i = 0; i < a.length - 1; i++) {
+        for (let j = 0; j < a[i]; j++) {
+            if (a[i] < a[j] && a[i] !== 0 && a[j] !== 0) {
+                let temp = a[i]
+                a[i] = a[j]
+                a[j] = temp
+            }
+
+        }
+
+    }
+document.write(a)
+</script>
+</body>
+</html>

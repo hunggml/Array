@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = ['Viet','Hung','18']
+    arr.splice(2,1)
+    console.log(arr)
+
+    let student = [
+        {
+            id:1,
+            name:'Hung',
+            addess:'Viet Tri'
+        },
+        {
+            id:2,
+            name:'Giang',
+            addess: 'Viet Tri'
+        },
+        {
+            id:3,
+            name: 'cc',
+            addess: 'nope'
+        }
+    ]
+    for (let i = 0; i < student.length; i++) {
+        if (student[i].id==2){
+            student.splice(0,1)
+        }
+
+    }
+    console.log(student)
+</script>
+</body>
+</html>
