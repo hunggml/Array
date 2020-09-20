@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="writee">
+<input type="button" id="clickk" onclick="clickk()" value="check">
+<p id="result"></p>
+<script>
+
+    function clickk() {
+        let enter = document.getElementById('writee').value;
+        let enter2 = enter.toUpperCase()
+        document.getElementById('result').innerHTML = enter2
+    }
+</script>
+</body>
+</html>
