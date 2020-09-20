@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    td {
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        font-size: 30px;
+    }
+</style>
+
+
+<table id="tabl" border="1px solid black" cellspacing="0"></table>
+<script>
+    const MAX_ROW = 10;
+    const MAX_COL = 10;
+    const EMPTY_VALUE = "";
+    const VALUE_X = "x";
+    const VALUE_O ="o";
+    const PLAYER_1 = 1;
+    const PLAYER_2 = 2;
+
+    let turn = PLAYER_1;
+    let board = []
+    createBoard()
+
+    function createBoard() {
+        let str = "";
+        for (let i = 0; i < MAX_ROW; i++) {
+            board[i] = []
+            str += '<tr>'
+            for (let j = 0; j < MAX_COL; j++) {
+                board[i][j] = VALUE_X
+                str +=`<td id="cell-${i}-${j}" onclick="clickCell(${i},${j})"></td>`;
+
+            }
+            str += "</tr>"
+
+        }
+        document.getElementById('tabl').innerHTML = str;
+        console.log(board);
+
+
+    }
+
+    function clickCell(x, y) {
+        let cell = document.getElementById(`cell-${x}-${y}`);
+
+        if (cell.innerHTML === EMPTY_VALUE) {
+            if (turn === PLAYER_1) {
+                cell.innerHTML = VALUE_X;
+                turn = PLAYER_2;
+            } else {
+                cell.innerHTML = VALUE_O;
+                turn = PLAYER_1;
+            }
+        }
+    }
+</script>
+</body>
+</html>

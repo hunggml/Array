@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="295bd323-038d-43dd-8560-97a2e02792a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/work-array/bt-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work-array/bt-dictionary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work-array/bt-tictoctoe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work-array/bt-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/work-array/bt-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work-array/bt-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/work-array/bt-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-array/bt-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/work-array/bt-3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,8 @@
       <updated>1600303748512</updated>
       <workItem from="1600303749558" duration="1921000" />
       <workItem from="1600315978789" duration="13806000" />
-      <workItem from="1600522576746" duration="2616000" />
+      <workItem from="1600522576746" duration="5253000" />
+      <workItem from="1600583439801" duration="1431000" />
     </task>
     <servers />
   </component>
@@ -92,6 +93,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="387" y="138" width="670" height="676" key="search.everywhere.popup" timestamp="1600411163213">
