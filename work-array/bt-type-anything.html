@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<center>
+    <h1>Type anything slowly</h1>
+    <textarea name="iputt" id="scren" cols="40" rows="10" onkeydown="downn()"></textarea>
+
+</center>
+<script>
+    let a = [
+        a[0] = "T", a[1] = "Ô", a[2] = "I", a[3] = "B", a[4] = "Ị",
+        a[5] = "Đ ", a[6] = "I ", a[7] = "Ê ", a[8] = "N ", a[9] = "!! ",
+
+
+    ]
+
+    function downn() {
+        let t = document.getElementById('srceen').value;
+        let Y = t.length
+        if (j>0){
+            for (let i = 1; i <= Y; i++) {
+                let n = n+ a[i]
+                if (i==9){
+                    document.getElementById('srceen').innerHTML = '';
+                    n= ''
+                }
+
+            }
+        }
+        document.getElementById('srceen').innerHTML = n;
+        n=''
+        setTimeout('downn()',500)
+
+    }
+
+</script>
+</body>
+</html>

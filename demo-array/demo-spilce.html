@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>SPLICE</title>
 </head>
 <body>
 <script>
     let arr = ['Viet','Hung','18']
-    arr.splice(2,1)
+    arr.splice(2,0,'hi')
     console.log(arr)
 
     let student = [
@@ -29,7 +29,7 @@
     ]
     for (let i = 0; i < student.length; i++) {
         if (student[i].id==2){
-            student.splice(0,1)
+            student.splice(1,0)
         }
 
     }

@@ -20,10 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="295bd323-038d-43dd-8560-97a2e02792a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/work-array/bt-dictionary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work-array/bt-tictoctoe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-array/demo-every.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-array/demo-filter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-array/demo-join.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-array/demo-pop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-array/demo-push.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-array/demo-reduce.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-array/demo-reverse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-array/demo-shift.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-array/demo-slice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-array/demo-some.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-array/demo-sort.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-array/demo-toLowerCase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-array/demo-toString.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-array/demo-toUpCase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-array/demo-unshift.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work-array/bt-type-anything.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work-array/bt-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/work-array/bt-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-array/demo-concat.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo-array/demo-concat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-array/demo-indexOf.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo-array/demo-indexOf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-array/demo-map.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo-array/demo-map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-array/demo-spilce.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo-array/demo-spilce.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +93,8 @@
       <workItem from="1600303749558" duration="1921000" />
       <workItem from="1600315978789" duration="13806000" />
       <workItem from="1600522576746" duration="5253000" />
-      <workItem from="1600583439801" duration="1431000" />
+      <workItem from="1600583439801" duration="6383000" />
+      <workItem from="1600685801402" duration="1771000" />
     </task>
     <servers />
   </component>
